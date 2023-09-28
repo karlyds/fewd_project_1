@@ -2,6 +2,9 @@ body  {
     background-image: url("assets/heap-of-toasted-bread-2021-08-26-16-24-34-utc.jpg");
     background-size: cover;
     background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+
   }
   .topnav a{
     float: left;
@@ -22,4 +25,31 @@ body  {
     font-size: 20px;
     margin-bottom: 20px;
   }
-  
+  .Toast{ 
+    text-align: center;
+    float: top;
+    font-size: 100px;
+    color: Black;
+    margin-top: 10px
+  }  
+  .menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.menu-item {
+    flex: 1;
+    background-color: black;
+    font-family: Verdana,sans-serif;
+    color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.menu-item img {
+    max-width: 100%;
+    height: auto;
+}
