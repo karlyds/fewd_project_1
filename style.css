@@ -57,7 +57,7 @@ body  {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 10px;
-    max-width: 400px;
+    max-width: 600px;
     margin: 0 auto;
     border: 5px solid white;
     border-radius: 5px;
@@ -124,7 +124,7 @@ body  {
     text-align: left;
 }
 .contact-box {
-    max-width: 400px;
+    max-width: 600px;
     margin: 0 auto;
     padding: 20px;
     background-color: black;
@@ -144,4 +144,8 @@ body  {
     font-size: 16px;
     margin-bottom: 20px;
     color: white;
+}
+.contact-box img {
+    max-width: 100%;
+    height: auto;
 }
